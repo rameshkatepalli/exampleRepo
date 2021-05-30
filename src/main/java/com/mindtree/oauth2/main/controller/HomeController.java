@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HomeController {
+//comment
 
 	//Changes done by sushma
+
 	@RequestMapping("user")
     @ResponseBody
     public Principal user(Principal principal) {
