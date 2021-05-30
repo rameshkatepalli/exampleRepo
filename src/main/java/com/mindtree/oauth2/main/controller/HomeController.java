@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HomeController {
-
+//comment
 	@RequestMapping("user")
     @ResponseBody
     public Principal user(Principal principal) {
