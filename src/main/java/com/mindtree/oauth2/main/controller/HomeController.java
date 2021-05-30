@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
 
+	//Changes done by sushma
 	@RequestMapping("user")
     @ResponseBody
     public Principal user(Principal principal) {
